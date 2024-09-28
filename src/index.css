@@ -1,0 +1,259 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0; /* Remove any extra padding */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 0.9rem; /* Reduced font size */
+  line-height: 1.4; /* Adjust line height for better readability */
+}
+
+/* Assuming your header has a class or tag selector */
+h1 {
+  text-align: center; /* Centers the text within the container */
+  margin: 0 auto; /* Centers the element itself */
+  padding: 1rem 0; /* Optional: Adds padding for spacing */
+}
+
+/* If the header is inside a specific container */
+.headerContainer {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers content vertically if needed */
+  text-align: center; /* Ensures text is centered */
+  width: 100%; /* Makes sure the container spans the full width */
+}
+
+
+/* Further increased paragraph size */
+p {
+  font-size: 1.2rem; 
+  line-height: 1.7; 
+  margin: 0.9rem 0; 
+  color: rgba(255, 255, 255, 0.87); 
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Centering the navigation bar */
+/* Centering the navigation bar with increased padding */
+/* Centering the navigation bar with increased padding */
+
+/* Centering the navigation bar with increased padding */
+nav {
+  display: flex;
+  justify-content: center; /* Centers the navigation menu horizontally */
+  align-items: center; /* Centers items vertically */
+  background-color: #343a40; /* You can adjust the background color */
+  padding: 20px 0; /* Increased padding for both top and bottom */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px; /* Adjust spacing between list items (links) */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-size: 22px; /* Increase the font size of the links */
+  font-weight: bold; /* Optional: make the text bold */
+  margin: 0 10px; /* Add space between links */
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-size: 18px; /* Increase the font size */
+  font-weight: bold; /* Optional: make the text bold */
+}
+
+
+nav a {
+  padding: 0.2rem 0.5rem; /* Added padding to make links more clickable */
+  text-decoration: none; /* Removing underlines */
+  color: #646cff; /* Maintain link color */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #535bf2; /* Change color on hover */
+}
+
+
+.bg {
+  position: absolute;
+  top: -4em;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 90vh;
+}
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 3em; /* Existing padding */
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-weight: 700;
+  justify-content: center;
+  margin-left: -4rem; /* Increased the left shift further */
+}
+
+
+
+
+.hello {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.introName {
+  color: blue;
+}
+
+.introPara {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+
+/* Styling for the navigation links container */
+.navigationLinks {
+  display: flex; /* Use flexbox for easy control over spacing */
+  gap: 0.5rem; /* Adjusted smaller gap between each link */
+  justify-content: center; /* Center links if needed */
+  flex-wrap: wrap; /* Allow links to wrap if there's not enough space */
+  margin: 0.5rem 0; /* Reduced top and bottom margins */
+}
+
+.navigationLinks a {
+  padding: 0.2rem 0.4rem; /* Reduced padding around links */
+  font-size: 0.9rem; /* Reduced font size */
+  text-decoration: none; /* Remove default underlines */
+  color: #646cff; /* Default link color */
+  border-radius: 3px; /* Slightly smaller border-radius */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navigationLinks a:hover {
+  background-color: #535bf2; /* Background change on hover */
+  color: #ffffff; /* Change text color on hover */
+}
+
+
+/* Reduced sizes for the media query */
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -15vw; /* Slightly reduced adjustment */
+    height: 80vh; /* Reduced height */
+  }
+
+  p {
+    font-size: 1rem; /* Slightly reduced font size */
+    line-height: 1.5; /* Adjusted line height */
+  }
+
+  .introContent {
+    padding: 2rem; /* Reduced padding */
+    font-size: 2em; /* Slightly reduced font size */
+  }
+
+  .hello {
+    font-size: 1.3rem; /* Slightly reduced font size */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Reduced padding */
+  }
+}
+
+
+/* Assuming your image has the class "football" */
+.football {
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  padding: 0; /* Remove any default padding */
+  width: auto; /* Maintain the original aspect ratio */
+  height: auto; /* Adjust as needed */
+}
+

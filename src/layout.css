@@ -1,0 +1,76 @@
+/* General styling for the layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2d2d2d; /* Dark background color */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff; /* White color for nav links */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+    color: #f0c040; /* Gold color on hover */
+}
+
+nav a.active {
+    border-bottom: 2px solid #f0c040; /* Gold underline for active link */
+}
+
+.consultationButton {
+    background-color: #d4a05a; /* Gold button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.consultationButton:hover {
+    background-color: #b38744; /* Darker gold on hover */
+}
+
+.subheading {
+    background-color: #d4a05a; /* Gold background */
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    font-style: italic;
+}
+

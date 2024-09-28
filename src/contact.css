@@ -1,0 +1,169 @@
+/* contact.css */
+
+/* Container for the entire form */
+#contact-section {
+    padding: 3rem 2rem;
+    text-align: center;
+    max-width: 600px; /* Set a max-width for the entire contact section */
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow for depth */
+    transition: box-shadow 0.3s;
+}
+
+#contact-section:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25); /* Slightly larger shadow on hover */
+}
+
+.contactTitle {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #007bff; /* Primary color for the title */
+}
+
+.contactDesc {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+}
+
+#contactForm {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1.5rem; /* Added gap between form elements */
+}
+
+label {
+    font-size: 1.15rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input, textarea {
+    font-size: 1rem;
+    padding: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Ensure full-width input fields */
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; /* Primary color on focus */
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3); /* Soft blue glow on focus */
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit {
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    align-self: center;
+    width: auto; /* Ensure button width is appropriate */
+}
+
+.submit:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.submit:active {
+    transform: translateY(1px); /* Pressed effect */
+}
+
+.contactDetails {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    color: #555;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.contactDetails p, .contactDetails a {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.contactDetails a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contactDetails a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 585px) {
+    #contact-section {
+        padding: 1.5rem;
+    }
+
+    .contactTitle {
+        font-size: 2.2rem;
+    }
+
+    .contactDesc {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .submit {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .contactDetails p, .contactDetails a {
+        font-size: 0.9rem;
+    }
+}
+
+.contactDetails {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    color: #555;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.contactDetails p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    color: #000; /* Set entire <p> tag to black */
+}
+
+.contactDetails a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contactDetails a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

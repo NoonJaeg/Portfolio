@@ -1,0 +1,72 @@
+/* project.css */
+
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem; /* Increased max-width to accommodate multiple projects */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1.5rem; /* Reduced font size for better alignment */
+    max-width: 50rem; /* Limited width for better readability */
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.worksImgs {
+    display: grid; /* Changed to grid layout for responsive design */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    width: 100%;
+    max-width: 75rem;
+    padding: 1rem;
+}
+
+.projectItem {
+    background: #f9f9f9; /* Light background for contrast */
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+}
+
+.projectItem:hover {
+    transform: translateY(-5px);
+}
+
+.worksImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.projectItem h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.projectItem p {
+    font-size: 1rem;
+    color: #555;
+   
+}
+

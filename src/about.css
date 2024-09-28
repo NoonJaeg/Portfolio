@@ -1,0 +1,106 @@
+/* about.css */
+
+#about-me {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.profileImage {
+    width: 100px;
+    height: 140px;
+    border-radius: 20%;
+    margin: 20px auto;
+}
+
+.aboutText {
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.resumeLink {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.resumeLink:hover {
+    background-color: #0056b3;
+}
+
+#skill {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-weight: 400;
+    font-size: x-large;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #e0e0e0;
+    transition: background 0.3s;
+}
+
+.skillBar:hover {
+    background: #d3d3d3; /* Adds hover effect */
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 6rem;
+    width: 10rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+}
+
+.skillBarText > h2 {
+    font-size: 1.75rem;
+    margin: 0;
+    color: #333;
+}
+
+.skillBarText > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+    color: #555;
+}
